@@ -47,6 +47,6 @@ public class PlayerMovement : MonoBehaviour {
         playerRigidbody.rotation = playerRigidbody.rotation * Quaternion.Euler(0, turn, 0);
 
         // 물리처리 무시ㅣ하고 회전 변경. 벽이나 물체를 무시하고 회전할 수 있음
-        transform.rotation = transform.rotation * Quaternion.Euler(0, turn, 0);
+        //transform.rotation = transform.rotation * Quaternion.Euler(0, turn, 0);
     }
 }
