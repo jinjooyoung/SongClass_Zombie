@@ -86,7 +86,7 @@ public class Zombie : LivingEntity
                 {
                     LivingEntity livingEntity = colliders[i].GetComponent<LivingEntity>();
 
-                    if (livingEntity != null && livingEntity.dead)
+                    if (livingEntity != null && !livingEntity.dead)
                     {
                         targetEntity = livingEntity;
 
